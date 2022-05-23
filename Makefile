@@ -9,7 +9,7 @@ help:
 	@echo "4- to publish docker into registry ==>make publish"
 	@echo "docker registry solution repositry must be mentioned"
 	@echo "5- to remove the current container ==>make rm"
-	@echo "6- to remove the current container ==>make shell"
+	@echo "6- to execute the current container in interactive mode docker ==>make shell"
 
 build:
 	docker build -t cpd .
