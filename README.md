@@ -22,7 +22,7 @@ The file DockerFile let the packaging and the deployment of this app using docke
 ***
 A list of technologies used within the project:
 * docker engine : 20.10.16
-* node version  : latest
+* node version  : 16.15.0-bullseye
 ***
 
 ## Requirements 
@@ -40,4 +40,6 @@ This script use Makefile to facilitate Manipulation for more details please chec
 * 2- to run docker ==> make run
 * 3- to list container ==> make ps
 * 4- to publish docker into registry ==>make publish
+
+PS: We can use githubAction to execute Dockerfile in GitHub-hosted runner
 ***
