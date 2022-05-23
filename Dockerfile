@@ -12,4 +12,8 @@ RUN npm install
 
 EXPOSE 3000
 
+RUN useradd -ms /bin/bash ADEO_User
+
+USER ADEO_User
+
 CMD ["node", "server.js"]

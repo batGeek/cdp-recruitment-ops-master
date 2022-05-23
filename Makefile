@@ -8,6 +8,9 @@ help:
 	@echo "3- to list container ==> make ps"
 	@echo "4- to publish docker into registry ==>make publish"
 	@echo "docker registry solution repositry must be mentioned"
+	@echo "5- to remove the current container ==>make rm"
+	@echo "6- to remove the current container ==>make shell"
+
 build:
 	docker build -t cpd .
 run:
@@ -15,4 +18,8 @@ run:
 ps:
 	docker ps
 publish:
-	docker push 
+	docker push
+rm:
+	docker rm -f cpd
+shell:
+	docker exec -it cpd bash	

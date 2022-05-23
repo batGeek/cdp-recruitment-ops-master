@@ -40,6 +40,8 @@ This script use Makefile to facilitate Manipulation for more details please chec
 * 2- to run docker ==> make run
 * 3- to list container ==> make ps
 * 4- to publish docker into registry ==>make publish
+* 5- to remove the current container ==>make rm
+* 6- to remove the current container ==>make shell
 
 PS: We can use githubAction to execute Dockerfile in GitHub-hosted runner
 ***
