@@ -18,7 +18,7 @@ git clone git@github.com:batGeek/cdp-recruitment-ops-master.git
 
 ## Who to use ??
 ***
-*This script use Makefile to facilitate Manipulation for more details please check the Makefile in this repository in summary:
+This script use Makefile to facilitate Manipulation for more details please check the Makefile in this repository in summary:
 	* 1- to build image ==> make build
 	* 2- to run docker ==> make run
 	* 3- to list container ==> make ps
