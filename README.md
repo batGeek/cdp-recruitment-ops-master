@@ -39,5 +39,5 @@ This script use Makefile to facilitate Manipulation for more details please chec
 * 1- to build image ==> make build
 * 2- to run docker ==> make run
 * 3- to list container ==> make ps
-* 4- to publish docker into registry ==>make punlish
+* 4- to publish docker into registry ==>make publish
 ***
