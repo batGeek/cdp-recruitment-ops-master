@@ -17,8 +17,10 @@ https://docs.docker.com/desktop/windows/install/
 git clone
 
 ## Who to use ??
-This script use Makefile to facilitate Manipulation for more details please check the Makefile in this repository in summary:
-	1- to build image ==> make build
-	2- to run docker ==> make run
-	3- to list container ==> make ps
-	4- to publish docker into registry ==>make punlish
+***
+*This script use Makefile to facilitate Manipulation for more details please check the Makefile in this repository in summary:
+	* 1- to build image ==> make build
+	* 2- to run docker ==> make run
+	* 3- to list container ==> make ps
+	* 4- to publish docker into registry ==>make punlish
+***
