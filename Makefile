@@ -6,7 +6,8 @@ help:
 	@echo "1- to build image ==> make build"
 	@echo "2- to run docker ==> make run "
 	@echo "3- to list container ==> make ps"
-	@echo "4- to publish docker into registry ==>make punlish"
+	@echo "4- to publish docker into registry ==>make publish"
+	@echo "docker registry solution repositry must be mentioned"
 build:
 	docker build -t cpd .
 run:
