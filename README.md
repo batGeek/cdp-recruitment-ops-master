@@ -31,7 +31,7 @@ for exemple to install docker in windows envirement the link below can be useful
 https://docs.docker.com/desktop/windows/install/
 
 ## Instalation
-git clone git@github.com:batGeek/cdp-recruitment-ops-master.git
+git clone https://github.com/batGeek/cdp-recruitment-ops-master.git
 
 ## Who to use ??
 ***
